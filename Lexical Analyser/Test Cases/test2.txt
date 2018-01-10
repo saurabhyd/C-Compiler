@@ -1,0 +1,12 @@
+#include<stdio.h>
+#define X 5
+
+main()
+{
+	int a;
+	/* A multi-line comment
+		which is not closed
+
+	scanf("%d",&a);
+	printf("%d",a*X);
+}
