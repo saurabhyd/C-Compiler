@@ -1,0 +1,42 @@
+					--------------------------------------------
+							SYMBOL TABLE
+					--------------------------------------------
+			Lexeme				Token			Attribute Value
+
+                  #include<stdio.h>         Preprocessor Directive                         1
+                                int                        Keyword                        11
+                      string_length          Identifier (Function)                        11
+                               char                        Keyword                        11
+                                  *                       Operator                        11
+                            pointer          Identifier (Variable)                        11
+                                  c          Identifier (Variable)                        13
+                                  =                       Operator                        13
+                                  0             Constant (Integer)                        13
+                              while                 Keyword (Loop)                        14
+                                 !=                       Operator                        14
+                                 ++                       Operator                        15
+                             return                        Keyword                        17
+                               void                        Keyword                        20
+                            reverse          Identifier (Function)                        20
+                             string          Identifier (Variable)                        20
+                             length          Identifier (Variable)                        22
+                              begin          Identifier (Variable)                        23
+                                end          Identifier (Variable)                        23
+                               temp          Identifier (Variable)                        23
+                                for                 Keyword (Loop)                        29
+                                  <                       Operator                        29
+                                  -                       Operator                        29
+                                  1             Constant (Integer)                        29
+                                  /                       Operator                        32
+                                  2             Constant (Integer)                        32
+                                 --                       Operator                        39
+                               main          Identifier (Function)                        42
+                                str          Identifier (Variable)                        44
+                                100             Constant (Integer)                        44
+                              54ull             Constant (Integer)                        45
+                                54f               Constant (Float)                        45
+                             printf          Identifier (Function)                        46
+                 "Enter a string\n"                 String Literal                        46
+                              scanf          Identifier (Function)                        47
+                               "%d"                 String Literal                        47
+  "Reverse of entered string is %s"                 String Literal                        49

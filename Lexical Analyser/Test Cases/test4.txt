@@ -11,7 +11,7 @@
 int string_length(char *pointer)
 {
    int c = 0; 
-   while( *(pointer + c) != '\0' )
+   while( *(pointer $ c) != '\0' )
       c++;
 
    return c;
@@ -20,35 +20,33 @@ int string_length(char *pointer)
 void reverse(char *string) 
 {
    int length, c;
-   char *begin, *end, temp, +hello;	// *begin is valid identifier but +hello is invalid
+   char 7xyz=0, *begin, *end, temp;
  
    length = string_length(string);
    begin  = string;
    end    = string;
  
-   for (c = 0; c < length - 1; c++)
+   for(c = 0; c < length - 1; c++)
       end++;
  
-   for (c = 0; c < length/2; c++)
+   for(c = 0; c < length/2; c++)
    {        
       temp   = *end;
       *end   = *begin;
       *begin = temp;
- 
+      7xyz++;
       begin++;
       end--;
    }
 } 
 main() 
 {
-   char string[100];
-   int x = 54s;			// 54s is not a valid integer constant
+   char str[100];
+   int 54ull, 54f, 54s;			// 54s is not a valid integer constant
    printf("Enter a string\n");
-   scanf("%d",string);
- 
-   reverse(string);
- 
-   printf("Reverse of entered string is %s", string);
+   scanf("%d",str);
+   reverse(str);
+   printf("Reverse of entered string is %s", str);
  
    return 0;
 }

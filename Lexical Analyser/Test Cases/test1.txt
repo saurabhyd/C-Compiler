@@ -1,23 +1,26 @@
-#include<stdio.h>
-/* This is a multi
-line comment*/ 
+#include <stdio.h>
+
 int main()
 {
-   int amount, rate, time, si;
+    int year;
 
-   //This is a single line comment
+    printf("Enter a year: ");
+    scanf("%d",&year);
 
-   printf("\nEnter Principal Amount : ");
-   scanf("%d", &amount);
- 
-   printf("\nEnter Rate of Interest : ");
-   scanf("%d", &rate);
- 
-   printf("\nEnter Period of Time   : ");
-   scanf("%d", &time);
-
-   si = (amount * rate * time) / 100;
-   printf("\nSimple Interest : %d", si);
-
-   return 0;
+    if(year%4 == 0)
+    {
+        if( year%100 == 0)
+        {
+            // year is divisible by 400, hence the year is a leap year
+            if ( year%400 == 0)
+                printf("%d is a leap year.", year);
+            else
+                printf("%d is not a leap year.", year);
+        }
+        else
+            printf("%d is a leap year.", year );
+    }
+    else
+        printf("%d is not a leap year.", year);
+    return 0;
 }

@@ -6,6 +6,7 @@ main()
 	int a;
 	/* A multi-line comment
 		which is not closed
+			sad
 
 	scanf("%d",&a);
 	printf("%d",a*X);

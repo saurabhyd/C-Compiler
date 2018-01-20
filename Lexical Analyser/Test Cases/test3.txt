@@ -6,11 +6,11 @@ int main()
     printf("Enter a positive integer: ");
     scanf("%d",&n);
     
-    int i.var;			// i.var is an invalid identifier
-    for(i.var=2; i.var<=n/2; ++i.var)
+    int var;			
+    for(var=2; var<=n/2; ++var)
     {
         // condition for nonprime number
-        if(n @ i.var==0)	// @ is an invalid operator
+        if(n @ var==0)	// @ is a bad character
         {
             5flag=1;
             break;
@@ -18,9 +18,10 @@ int main()
     }
 
     if (5flag==0)
-        printf("%d is a prime number. ,n);	//string is not closed
+        printf("%d is a prime number." ,n);
     else
-        printf("%d is not a prime number.",n);
+        printf("%d is not a prime number.,n);
     
     return 0;
 }
+
